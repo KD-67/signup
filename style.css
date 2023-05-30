@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#artpart {
+    flex: 1;
+}
+
+
+#art {
+    height: 100%;
+    width: 100%;
+    widdth: min (200px, 100%);
+}
+
+#meatnpotatoes {
+    flex: 2;
+    display: block;
+}
+
+#cta {
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(244, 244, 244);
+}
+
+.tagline {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#top_tagline {
+    padding-top: 150px;
+}
+
+#bottom_tagline {
+    padding-top: 20px;
+}
+
+#form-section {
+    width: 100%;
+    height: 30vh;
+    padding: 10px 30px;
+    padding-bottom: 100px;
+}
+
+#user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2 - 20px);
+}
+
+#submit {
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(244, 244, 244);
+}
+
