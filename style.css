@@ -1,8 +1,76 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Mukta', sans-serif;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+#image-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 30%;
+    background: url(signupart.jpg) no-repeat center;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+}
+
+#form-section {
+    height: 100vh;
+    width: 70%;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#cta {
+
+}
+
+#form-inputs {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2 - 30px);
+    padding: 10px;
+}
+
+#submit-btn {
+    width: 200px;
+    height: 50px;
+    background-color: seagreen;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    margin: 15px 50px;
+    border: none;
+    box-shadow: 0 0 10px rgb(97, 97, 97);;
+}
+
+#signin-btn {
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+
+/* 
+
 .container {
     display: flex;
     width: 100vw;
@@ -17,7 +85,6 @@
 #art {
     height: 100%;
     width: 100%;
-    widdth: min (200px, 100%);
 }
 
 #meatnpotatoes {
@@ -61,7 +128,8 @@
 .input-box {
     display: flex;
     flex-direction: column;
-    width: calc(100% / 2 - 20px);
+    width: calc(100% / 2 - 30px);
+    padding: 10px;
 }
 
 #submit {
@@ -69,4 +137,24 @@
     height: 35vh;
     background-color: rgb(244, 244, 244);
 }
+
+#submit-btn {
+    width: 200px;
+    height: 50px;
+    background-color: seagreen;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    margin: 15px 50px;
+    border: none;
+    box-shadow: 0 0 10px rgb(97, 97, 97);;
+}
+
+#signin-btn {
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+*/
+
 
